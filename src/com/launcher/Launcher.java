@@ -50,6 +50,7 @@ public class Launcher extends javax.swing.JFrame {
         Escudo12 = new javax.swing.JLabel();
         Escudo13 = new javax.swing.JLabel();
         Escudo14 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
         bgBase = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
 
@@ -212,6 +213,9 @@ public class Launcher extends javax.swing.JFrame {
 
         getContentPane().add(JPanelEscudos, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 70, 1550, 130));
 
+        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 200, 1550, 880));
+
         bgBase.setBackground(new java.awt.Color(255, 255, 255));
         bgBase.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/FondoBase.png"))); // NOI18N
         bgBase.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -373,6 +377,7 @@ public class Launcher extends javax.swing.JFrame {
     private javax.swing.JPanel JPanelEscudos;
     private javax.swing.JLabel bgBase;
     private javax.swing.JLabel jLabel15;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 
 }
