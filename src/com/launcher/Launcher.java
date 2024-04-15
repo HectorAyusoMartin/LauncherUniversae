@@ -51,6 +51,7 @@ public class Launcher extends javax.swing.JFrame {
         Escudo13 = new javax.swing.JLabel();
         Escudo14 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
         bgBase = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
 
@@ -214,6 +215,27 @@ public class Launcher extends javax.swing.JFrame {
         getContentPane().add(JPanelEscudos, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 70, 1550, 130));
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        jLabel1.setText("BRANCH DEVELOP");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(668, Short.MAX_VALUE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 545, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(337, 337, 337))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(438, Short.MAX_VALUE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(276, 276, 276))
+        );
+
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 200, 1550, 880));
 
         bgBase.setBackground(new java.awt.Color(255, 255, 255));
@@ -376,6 +398,7 @@ public class Launcher extends javax.swing.JFrame {
     private javax.swing.JLabel Escudo9;
     private javax.swing.JPanel JPanelEscudos;
     private javax.swing.JLabel bgBase;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
