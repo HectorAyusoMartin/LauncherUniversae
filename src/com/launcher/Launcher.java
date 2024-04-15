@@ -35,37 +35,6 @@ public class Launcher extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        tabpaneles = new javax.swing.JTabbedPane();
-        tabpanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        tabpanel2 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        tabpanel3 = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        tabpanel4 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
-        tabpanel5 = new javax.swing.JPanel();
-        jLabel5 = new javax.swing.JLabel();
-        tabpanel6 = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
-        tabpanel7 = new javax.swing.JPanel();
-        jLabel7 = new javax.swing.JLabel();
-        tabpanel8 = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
-        tabpanel9 = new javax.swing.JPanel();
-        jLabel9 = new javax.swing.JLabel();
-        tabpanel10 = new javax.swing.JPanel();
-        jLabel10 = new javax.swing.JLabel();
-        tabpanel11 = new javax.swing.JPanel();
-        jLabel11 = new javax.swing.JLabel();
-        tabpanel12 = new javax.swing.JPanel();
-        jLabel12 = new javax.swing.JLabel();
-        tabpanel13 = new javax.swing.JPanel();
-        jLabel13 = new javax.swing.JLabel();
-        tabpanel14 = new javax.swing.JPanel();
-        jLabel14 = new javax.swing.JLabel();
-        tabpanel15 = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
         JPanelEscudos = new javax.swing.JPanel();
         Escudo1 = new javax.swing.JLabel();
         Escudo2 = new javax.swing.JLabel();
@@ -91,131 +60,6 @@ public class Launcher extends javax.swing.JFrame {
         setResizable(false);
         setSize(new java.awt.Dimension(1920, 1080));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        tabpaneles.setOpaque(true);
-
-        tabpanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
-        jLabel1.setText("Pantalla Bienvenida");
-        jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        tabpanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 430, 160));
-
-        tabpaneles.addTab("", tabpanel1);
-
-        tabpanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel2.setText("Simulador 1");
-        tabpanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel2);
-
-        tabpanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel3.setText("Simulador 2");
-        tabpanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel3);
-
-        tabpanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel4.setText("Simulador 3");
-        tabpanel4.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel4);
-
-        tabpanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel5.setText("Simulador 4");
-        tabpanel5.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel5);
-
-        tabpanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel6.setText("Simulador 5");
-        tabpanel6.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel6);
-
-        tabpanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel7.setText("Simulador 6");
-        tabpanel7.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel7);
-
-        tabpanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel8.setText("Simulador 7");
-        tabpanel8.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel8);
-
-        tabpanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel9.setText("Simulador 8");
-        tabpanel9.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel9);
-
-        tabpanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel10.setText("Simulador 9");
-        tabpanel10.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel10);
-
-        tabpanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel11.setText("Simulador 10");
-        tabpanel11.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel11);
-
-        tabpanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel12.setText("Simulador 11");
-        tabpanel12.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel12);
-
-        tabpanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel13.setText("Simulador 12");
-        tabpanel13.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel13);
-
-        tabpanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel14.setText("Simulador 13");
-        tabpanel14.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel14);
-
-        tabpanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel16.setText("Simulador 14");
-        tabpanel15.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 410, 80));
-
-        tabpaneles.addTab("", tabpanel15);
-
-        getContentPane().add(tabpaneles, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 200, 1550, 880));
 
         JPanelEscudos.setBackground(new java.awt.Color(102, 153, 255));
         JPanelEscudos.setOpaque(false);
@@ -392,7 +236,7 @@ public class Launcher extends javax.swing.JFrame {
     private void Escudo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo1MouseClicked
         // TODO add your handling code here:
         // JOptionPane.showMessageDialog(null, "Cuidado, esto es una advertencia", "Advertencia", JOptionPane.WARNING_MESSAGE); //manda un mensaje de advertencia al pulsar click en el primer escudo
-         tabpaneles.setSelectedIndex(1);
+        
     }//GEN-LAST:event_Escudo1MouseClicked
 
     private void Escudo2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo2MouseEntered
@@ -402,72 +246,73 @@ public class Launcher extends javax.swing.JFrame {
 
     private void Escudo2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo2MouseClicked
         // TODO add your handling code here:
-        tabpaneles.setSelectedIndex(2);
+        
     }//GEN-LAST:event_Escudo2MouseClicked
 
     private void Escudo3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo3MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(3);
+        
     }//GEN-LAST:event_Escudo3MouseClicked
 
     private void Escudo4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo4MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(4);
+         
     }//GEN-LAST:event_Escudo4MouseClicked
 
     private void Escudo5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo5MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(5);
+        
     }//GEN-LAST:event_Escudo5MouseClicked
 
     private void Escudo6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo6MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(6);
+        
     }//GEN-LAST:event_Escudo6MouseClicked
 
     private void Escudo7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo7MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(7);
+         
     }//GEN-LAST:event_Escudo7MouseClicked
 
     private void Escudo8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo8MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(8);
+         
     }//GEN-LAST:event_Escudo8MouseClicked
 
     private void Escudo9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo9MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(9);
+        
     }//GEN-LAST:event_Escudo9MouseClicked
 
     private void Escudo10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo10MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(10);
+        
     }//GEN-LAST:event_Escudo10MouseClicked
 
     private void Escudo11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo11MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(11);
+         
     }//GEN-LAST:event_Escudo11MouseClicked
 
     private void Escudo12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo12MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(12);
+         
     }//GEN-LAST:event_Escudo12MouseClicked
 
     private void Escudo13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo13MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(13);
+         
     }//GEN-LAST:event_Escudo13MouseClicked
 
     private void Escudo14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Escudo14MouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(14);
+        
     }//GEN-LAST:event_Escudo14MouseClicked
 
     private void bgBaseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bgBaseMouseClicked
         // TODO add your handling code here:
-         tabpaneles.setSelectedIndex(0);
+        JOptionPane.showMessageDialog(rootPane, "Inicio");
+         
     }//GEN-LAST:event_bgBaseMouseClicked
 
     /**
@@ -527,38 +372,7 @@ public class Launcher extends javax.swing.JFrame {
     private javax.swing.JLabel Escudo9;
     private javax.swing.JPanel JPanelEscudos;
     private javax.swing.JLabel bgBase;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel tabpanel1;
-    private javax.swing.JPanel tabpanel10;
-    private javax.swing.JPanel tabpanel11;
-    private javax.swing.JPanel tabpanel12;
-    private javax.swing.JPanel tabpanel13;
-    private javax.swing.JPanel tabpanel14;
-    private javax.swing.JPanel tabpanel15;
-    private javax.swing.JPanel tabpanel2;
-    private javax.swing.JPanel tabpanel3;
-    private javax.swing.JPanel tabpanel4;
-    private javax.swing.JPanel tabpanel5;
-    private javax.swing.JPanel tabpanel6;
-    private javax.swing.JPanel tabpanel7;
-    private javax.swing.JPanel tabpanel8;
-    private javax.swing.JPanel tabpanel9;
-    private javax.swing.JTabbedPane tabpaneles;
     // End of variables declaration//GEN-END:variables
 
 }
